@@ -1,0 +1,104 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "roboto",sans-serif;
+}
+
+header{
+  position: fixed;
+  background: grey;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+.title h1{
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+.sidebar{
+  background: #84C1C4 ;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition:0.5s;
+  transition-property: left;
+}
+.sidebar img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.sidebar h4{
+  color: aqua;
+  font-size: 30px;
+  margin: auto;
+}
+ul li a{
+  color: white;
+  display: block;
+  box-sizing: border-box;
+  margin-top: auto;
+  text-decoration: none;
+  width: 100%;
+  line-height: 70px;
+  padding-left: 30px;
+}
+ul li :hover{
+  background-color: lightskyblue;
+}
+ul li{
+  transition: 0.5s;
+  transition-property: background-color ;
+}
+ul li a i{
+  padding-right: 20px;
+}
+
+.background{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 250px;
+  height: 100vh;
+  transition:0.5s;
+}
+
+label #sidebar_btn{
+  z-index: 1; 
+  color: cadetblue;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  left: 250px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #sidebar_btn:hover{
+  color: cyan;
+}
+
+#check:checked ~.sidebar{
+  left:-250px
+}
+
+#check:checked~.background{
+  margin-left: 0px;
+}
+
+#check{
+  display: none;
+}
+ul li{
+  display: inline;
+}

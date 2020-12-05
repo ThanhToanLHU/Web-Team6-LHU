@@ -1,0 +1,92 @@
+.Info{
+    width: 300px;
+    padding: auto;
+    background-color: rgb(103, 189, 204);
+    border: 5px solid rgb(26, 26, 34);
+    box-shadow: 10px 10px 15px black;
+    position: relative;
+    top: -30vh;
+    
+}
+.chinhsua{
+    font-size: small;
+    width: 100%;
+    padding: 5px;
+    /* border: 1px solid red;
+    border-radius: 20px; */
+    background-image: url("./cd1de215eaede6eab392da1009359f30.jpg");
+   
+}
+.contactBut{
+    color: white;
+    font-size: auto;
+    width: 98%;
+    margin:  5px 1%;
+    background-color: darkcyan;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.TrongTin{
+    left: 10vw;
+}
+
+.VanTin{
+    left: 35vw;
+    top: -66vh;
+}
+
+.ThanhToan{
+    left: 60vw;
+    top: -102vh;
+   
+}
+
+.MinhTri{
+    top: -98vh;
+    left: 21.5vw;
+}
+
+.Thuyen{
+    top: -133.8vh;
+    left: 48vw;
+}
+
+.lhuImg{
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.8;
+    filter: brightness(0.8);
+}
+
+.lhuLogo{
+    position: relative;
+    display: inline;
+    top: -95vh;
+    left: 43vw;
+    width: 15vw;
+}
+
+.teamp{
+    font-size: 5em;
+    position: relative;
+    bottom: 80vh;
+    left: 20vw;
+    /* border: 2px solid black; */
+    display: inline;
+    font-weight: 900;
+    /* background-color: white; */
+    color: rgb(243, 234, 234);
+}
+
+.strBut{
+    width: 20vw;
+    height: 10vh;
+    background-color: rgb(19, 127, 214);
+    position: relative;
+    bottom: 65vh;
+    left: -7vw;
+    border-radius: 20px;
+    font-size: 1.5em;
+    color: white;
+}

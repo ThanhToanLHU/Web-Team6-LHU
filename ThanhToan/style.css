@@ -1,107 +1,96 @@
 *{
-    margin: 0;
-    box-sizing: border-box;
-    width: 95%;
-    margin: 0 auto;
+    box-sizing: border-box ;
+    padding: 0;
+    margin: 0%;
 }
 
-body{
-    background-image: linear-gradient(rgb(49, 47, 47),rgb(128, 123, 123),rgb(231, 181, 181));
+nav {
+    height: 7vh;
+    background-color: rgb(56, 58, 58);
+   
 }
 
-
-.avt{
-    width: 15vw;
-    height: 30vh;
-    border-radius: 50%;
-    position: relative;
-    top: -10vh
+nav a{
+    font-size: 2em;
+    color: thistle;
 }
 
-/* .imgHead{
-    width: 15vw;
-    height: 30vh;
-    position: relative;
-    float: right;
-    display: inline;
-} */
+.content{
+    background-color:rgb(234, 237, 241);
+    padding: 20px;
+}
 
-header{
-    width: 100%;
-    height: 40vh;
-    /* background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(255, 255, 255)); */
-    animation: headerAni 2s;
-    animation-iteration-count: infinite;
-    transition: 2s;
-    box-shadow: 10px 10px 99px rgb(15, 15, 15);
-    border: 1px solid black;
+.wrap{
+    background-color: rgb(193, 193, 193);
+    padding: 10px 80px;
+}
+
+.main{
+    margin: 30px;
+    background-color: rgb(241, 243, 242);
+    color: rgb(63, 61, 61);
     border-radius: 20px;
-    margin-bottom: 50px;
+    padding: 10px 0;
 }
 
-header p{
-    font-size: 4em;
-    text-align: center;
-    display: inline;
-    float: right;
-    position: relative;
-    top: 10vh;
+.main > h1{
+    margin: 20px 0 30px 30px;
 }
 
-@keyframes headerAni{
-    0%{
-        background-image: linear-gradient(to right,rgb(19, 17, 17),rgb(255, 253, 253));
-        box-shadow: 10px 10px 99px rgb(255, 255, 255);
-        color: black;
-    }
-    50%{
-        background-image: linear-gradient(to right,rgb(250, 250, 250),rgb(0, 0, 0));
-        box-shadow: 10px 10px 99px rgb(34, 32, 32);
-        color: white;
-    }
-    100%{
-        background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(255, 249, 249));
-        box-shadow: 10px 10px 99px rgb(230, 221, 221);
-        color: black;
-    }
+.cross{
+    height: 10vh;
+    width: 100%;
+    background-color:rgb(45, 127, 185);
+    font-size: 1.5em;
+    padding:0 40px;
+    margin: 20px 0;
+    line-height: 50px;
+    color: rgb(255, 247, 244);
 }
 
-.row{
-    height: 50vh;
-    margin-bottom: 10vh;
+.avtImg{
+    width: 20vw;
+    margin: 30px 0;
+}
+
+.mainInfo{
+    padding: 50px;
+    height: 100vh;
+}
+
+.left{
+    width: 35%;
+    float: left;
 }
 
 .right{
     float: right;
+    width: 60%;
+    min-height: 50vh;
+    /* background-color: black; */
 }
 
-.left{
-    float: left;
+.avt{
+    height: 530px;
+    background-color: white ;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px 2px rgb(70, 69, 69);
+    padding: 10px;
 }
 
-.storyBox{
-    width: 40vw;
-    height: 50vh;
-    background-image: linear-gradient(rgb(151, 144, 144),rgb(158, 81, 81));
-    border: 2px solid black;
-    box-shadow: 10px 10px 80px black;
-    border-radius: 20px;
-    overflow: auto;
-    font-size: 2em;
+.avt p{
+    font-size: 1.5em;
 }
 
-::-webkit-scrollbar {
-    width: 0px; /* remove scrollbar space /
-    background: transparent; / optional: just make scrollbar invisible */
-    }
+.soLuoc{
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px 2px rgb(70, 69, 69);
+}
 
-.storyTitle{
-    width: 40vw;
-    height: 50vh;
-    font-size: 2em;
-    /* line-height: 50vh; */
-    
-    /* background-color: rgb(192, 186, 186); */
-    /* border: 1px solid black; */
-    /* border-radius: 20px; */
+.exp{
+    margin: 20px 0;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px 2px rgb(70, 69, 69);
 }

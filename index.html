@@ -1,101 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style/style.css">
-    <title>Team6-LHU</title>
-</head>
-<body>
-    <!-- <img src="./Images/truong-dai-hoc-lac-hong.jpg" alt="Images" class="lhuImg"> -->
-    <img src="./Images/background.jpg" class="lhuImg">
-    <img src="./Images/LogoLHU_Daf.png" class="lhuLogo">
-    <p class="teamp">Team6-LHU</p>
-    <button class="strBut">Start</button>
-    <h1 class="title">MEMBERS</h1>
 
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/index.css">
+    </head>
 
-    <div class="member">
-        
-        <div class="Info TrongTin" >
-            <!-- <img src="" alt=""> -->
-            <div class="chinhsua">
-                <h2>Trọng Tín</h2>
-        
-                <h3>Lớp 20CT112</h3>
-        
-                <p>18 tuoi chua co ny</p>
-                <p>nghe nghiep sinh vien</p>
-        
-                <p>doantrongtinlhu@gmail.com</p>
-                <a href="contact.html"><button>contact</button></a>
-            </div>
-        
+    <body>
+
+        <div class="header">
+            <h1>TEAM6 - LHU</h1>
+            <!-- <img src="./assets/images/ani.webp" alt=""> -->
+            <p></p>
         </div>
 
-        <div class="Info VanTin">
-            <!-- <img src="" alt=""> -->
-            <div class="chinhsua">
-                <h2>Văn Tín</h2>
-        
-                <h3>hoc lop 20ct112</h3>
-        
-                <p>18 tuoi chua co ny</p>
-                <p>nghe nghiep sinh vien</p>
-        
-                <p>doantrongtinlhu@gmail.com</p>
-                <a href="contact.html"><button>contact</button></a>
-            </div>
-        
+        <div class="navbar">
+            <a href="index.html">Trang chủ</a>
+            <a href="about.html" target="blank">Giới thiệu</a>
+            <a href="#">Portpolio</a>
+            <a href="contactus.html" class="right" target="blank">Liên hệ</a>
         </div>
 
-        <div class="Info ThanhToan">
-            <!-- <img src="" alt=""> -->
-            <div class="chinhsua">
-                <h2>Thanh Toàn</h2>
-        
-                <h3>hoc lop 20ct112</h3>
-        
-                <p>18 tuoi chua co ny</p>
-                <p>nghe nghiep sinh vien</p>
-        
-                <p>doantrongtinlhu@gmail.com</p>
-                <a href="./ThanhToan/index.html"><button>contact</button></a>
+        <div class="row">
+            <div class="side">
+               
+                <div class="fakeimg" style="height:200px;">Hình ảnh đại diện của nhóm</div>
+                <h2 style="font-size: 2em;text-align: center;">TEAM6-LHU</h2>
+                <h5></h5>
+                <!-- <p style="font-size: 1.5em;text-align: center;">Legend never die</p> -->
+                <h3>Portpolio</h3>
+                <p>Truy cập nhanh vào Portpolio của từng thành viên</p>
+                <div class="fakeimgp" style="height:60px;"><a href="./ThanhToan/index.html">Nguyễn Thanh Toàn</a></div><br>
+                <div class="fakeimgp" style="height:60px;"><a href="./MinhTri/index.html">Trần Mai Minh Trí</a></div><br>
+                <div class="fakeimgp" style="height:60px;"><a href="#">Đoàn Trọng Tín</a></div><br>
+                <div class="fakeimgp" style="height:60px;"><a href="./lưu văn tín/index.html">Lưu Văn Tín</a></div><br>
+                <div class="fakeimgp" style="height:60px;"><a href="#">Châu Nhật Thuyên</a></div>
             </div>
-        
+            <div class="main">
+                <h2>Hình ảnh hoạt động của nhóm</h2>
+                <h5>Những hình ảnh hoạt động nhóm trong quá trình học môn thiết kết web</h5>
+
+                <!-- <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> Xem tất cả</button>
+                    <button class="btn" onclick="filterSelection('nature')"> Học nhóm</button>
+                    <button class="btn" onclick="filterSelection('cars')"> Vui chơi</button>
+                    <button class="btn" onclick="filterSelection('people')"> Chụp lén</button>
+                </div> -->
+
+                <!-- Portfolio Gallery Grid -->
+                <div class="rowportfolio">
+                    <div class="columnportfolio nature">
+                        <div class="contentportfolio">
+                            <img src="assets/images/mountains.jpg" alt="Mountains" style="width:100%">
+                            <h4>Tên hình</h4>
+                            <p>Bình luận cho hình này..</p>
+                        </div>
+                    </div>
+                    <div class="columnportfolio nature">
+                        <div class="contentportfolio">
+                            <img src="assets/images/lights.jpg" alt="Lights" style="width:100%">
+                            <h4>Lights</h4>
+                            <p>Bình luận cho hình này...</p>
+                        </div>
+                    </div>
+                    <div class="columnportfolio nature">
+                        <div class="contentportfolio">
+                            <img src="assets/images/nature.jpg" alt="Nature" style="width:100%">
+                            <h4>Forest</h4>
+                            <p>Bình luận cho hình này...</p>
+                        </div>
+                    </div>
+
+                    <div class="columnportfolio cars">
+                        <div class="contentportfolio">
+                            <img src="assets/images/cars1.jpg" alt="Car" style="width:100%">
+                            <h4>Retro</h4>
+                            <p>Bình luận cho hình này...</p>
+                        </div>
+                    </div>
+                    <div class="columnportfolio cars">
+                        <div class="contentportfolio">
+                            <img src="assets/images/cars2.jpg" alt="Car" style="width:100%">
+                            <h4>Fast</h4>
+                            <p>Bình luận cho hình này...</p>
+                        </div>
+                    </div>
+                    <div class="columnportfolio cars">
+                        <div class="contentportfolio">
+                            <img src="assets/images/cars3.jpg" alt="Car" style="width:100%">
+                            <h4>Classic</h4>
+                            <p>Bình luận cho hình này...</p>
+                        </div>
+                    </div>
+
+                    <div class="columnportfolio people">
+                        <div class="contentportfolio">
+                            <img src="assets/images/people1.jpg" alt="Car" style="width:100%">
+                            <h4>Girl</h4>
+                            <p>Bình luận cho hình này...</p>
+                        </div>
+                    </div>
+                    <div class="columnportfolio people">
+                        <div class="contentportfolio">
+                            <img src="assets/images/people2.jpg" alt="Car" style="width:100%">
+                            <h4>Man</h4>
+                            <p>Bình luận cho hình này...</p>
+                        </div>
+                    </div>
+                    <div class="columnportfolio people">
+                        <div class="contentportfolio">
+                            <img src="assets/images/people3.jpg" alt="Car" style="width:100%">
+                            <h4>Woman</h4>
+                            <p>Bình luận cho hình này...</p>
+                        </div>
+                    </div>
+                    <!-- END GRID -->
+                </div>
+
+                <br>
+                <h2 style="border-bottom: 2px solid red; width: 300px;">Danh sách bài viết của nhóm</h2>
+
+                <ul style="font-size: 1.5em;">
+                    <li><a href="#">Tiêu đề bài viết - ngày 20-02-2020</a></li>
+                    <li><a href="#">Tiêu đề bài viết - ngày 20-02-2020</a></li>
+                    <li><a href="#">Tiêu đề bài viết - ngày 20-02-2020</a></li>
+                    <li><a href="#">Tiêu đề bài viết - ngày 20-02-2020</a></li>
+                    <li><a href="#">Tiêu đề bài viết - ngày 20-02-2020</a></li>
+                    <li><a href="#">Tiêu đề bài viết - ngày 20-02-2020</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>TEAM6-LHU</h2>
         </div>
 
-        <div class="Info  MinhTri">
-            <!-- <img src="" alt=""> -->
-            <div class="chinhsua">
-                <h2>Minh Trí</h2>
-        
-                <h3>hoc lop 20ct112</h3>
-        
-                <p>18 tuoi chua co ny</p>
-                <p>nghe nghiep sinh vien</p>
-        
-                <p>doantrongtinlhu@gmail.com</p>
-                <a href="./MinhTri/index.html"><button>contact</button></a>
-            </div>
-        
-        </div>
+    </body>
 
-        <div class="Info Thuyen">
-            <!-- <img src="" alt=""> -->
-            <div class="chinhsua">
-                <h2>Nhật Thuyên</h2>
-        
-                <h3>hoc lop 20ct112</h3>
-        
-                <p>18 tuoi chua co ny</p>
-                <p>nghe nghiep sinh vien</p>
-        
-                <p>doantrongtinlhu@gmail.com</p>
-                <a href="contact.html"><button>contact</button></a>
-            </div>
-        </div>
-</div>
-
-</body>
 </html>

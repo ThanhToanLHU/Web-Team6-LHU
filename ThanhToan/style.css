@@ -15,36 +15,9 @@ nav a{
     color: thistle;
 }
 
-<<<<<<< HEAD
 .content{
     background-color:rgb(234, 237, 241);
     padding: 20px;
-=======
-ul li{
-    list-style-type: none;
-    float: left;
-    width: 20%;
-    text-decoration: none;
-}
-
-ul li a{
-    text-decoration: none;
-    font-size: 2em;
-    color: inherit;
-}
-
-ul li a::after{
-    word-spacing: 5vw;
-    content: " >";
-}
-
-.avt{
-    width: 15vw;
-    height: 30vh;
-    border-radius: 50%;
-    position: relative;
-    top: -5vh;
->>>>>>> 9d87ba0381da7291253af3e66d878f236720d2a2
 }
 
 .wrap{
@@ -75,16 +48,9 @@ ul li a::after{
     color: rgb(255, 247, 244);
 }
 
-<<<<<<< HEAD
 .avtImg{
     width: 20vw;
     margin: 30px 0;
-=======
-.row{
-    height: 50vh;
-    margin-bottom: 10vh;
-    transition: 1s;
->>>>>>> 9d87ba0381da7291253af3e66d878f236720d2a2
 }
 
 .mainInfo{

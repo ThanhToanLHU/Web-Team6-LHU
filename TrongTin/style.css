@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+#container{
+    width: 70;
+    margin: 10px auto;
+    background-color: white;
+}
+.card{
+    width: 95%;
+    margin: 20px auto;
+    background-color: wheat;
+    padding-bottom: 12px;
+}
+.title{
+    overflow: hidden;
+    border-bottom: 2px solid purple;
+    padding-top: 12px;
+}
+.main-title{
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    float: left;
+    font-size:2em;
+}
+.button{
+    float: right;
+    padding: 12px 10px;
+    margin-right: 0px;
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: thistle;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.sub-conten h2{
+    text-transform: capitalize;
+}

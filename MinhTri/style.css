@@ -21,6 +21,8 @@ header{
   font-weight: 900;
 }
 .sidebar{
+  float: left;
+  width: 20vw;
   background: #84C1C4 ;
   margin-top: 70px;
   padding-top: 30px;
@@ -63,12 +65,19 @@ ul li a i{
   padding-right: 20px;
 }
 
+.content{
+  width: 100%;
+}
+
 .background{
+  float: right;
+  width: 75vw;
+  margin-top: 100px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 250px;
-  height: 100vh;
+  /* margin-left: 250px; */
+  /* height: 100vh; */
   transition:0.5s;
 }
 
@@ -88,12 +97,13 @@ label #sidebar_btn:hover{
   color: cyan;
 }
 
-#check:checked ~.sidebar{
+#check:checked ~ div .sidebar{
   left:-250px
 }
 
-#check:checked~.background{
+#check:checked~ div .background{
   margin-left: 0px;
+  width: 95vw;
 }
 
 #check{
@@ -101,4 +111,36 @@ label #sidebar_btn:hover{
 }
 ul li{
   display: inline;
+}
+
+.background p{
+  color: black;
+}
+
+.info{
+  font-size: 1.5em;
+
+}
+
+.tieusu{
+  width: 30vw;
+  height: 40vh;
+  background-color: rgb(201, 199, 199);
+  border: 2px solid black;
+  float: right;
+  border-radius: 20px;
+  margin-right: 10vw;
+  box-shadow: 10px 10px 10px rgb(112, 103, 103);
+}
+
+.trinhdo{
+  width: 30vw;
+  border-radius: 20px;
+  /* height: 40vh; */
+  background-color: rgb(201, 199, 199);
+  border: 2px solid black;
+  float: left;
+  margin-right: 10vw;
+  box-shadow: 10px 10px 10px rgb(112, 103, 103);
+  padding: 20px;
 }
